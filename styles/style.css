@@ -151,7 +151,6 @@
   font-size: 22px;
   line-height: 120%;
   font-style: normal;
-  text-decoration-line: underline;
   text-transform: uppercase;
   color: #ffffff;
   text-decoration-line: underline;
@@ -272,7 +271,6 @@
   display: grid;
   grid-template-columns: 240.52px 1fr 240px;
   padding: 0 50px 0 50px;
-  align-items: center;
   margin-top: 2550px;
   align-items: start;
 }
