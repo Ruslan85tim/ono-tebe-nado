@@ -52,7 +52,8 @@
   position: relative;
   width: 1100px;
   min-height: 757px;
-  padding: 164px 50px 145px;
+  padding: 164px 50px 39px;
+  z-index: 0;
 }
 
 .overlay {
@@ -60,13 +61,12 @@
   inset: 0;
   background: #000000;
   opacity: 0.6;
-  z-index: 0;
+  z-index: -1;
 }
 
 .cover__title {
   position: relative;
   width: 1000px;
-  min-height: 355px;
   font-style: normal;
   font-weight: 700;
   font-size: 100px;
@@ -98,12 +98,11 @@
 }
 
 .cover__description {
-  position: relative;
-  width: 637px;
-  height: 28px;
-  left: 28px;
-  top: 134px;
-  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 122px;
+  padding-left: 30px;
+  align-items: center;
 }
 
 .cover__description-text {
@@ -122,11 +121,8 @@
   background: transparent;
   border: 1px solid currentColor;
   text-transform: uppercase;
-  position: relative;
   width: 256px;
   height: 51px;
-  left: 744px;
-  top: 94px;
   font-family: inherit;
 }
 
@@ -146,7 +142,7 @@
 
 .lots__card-list {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 25px;
 }
 
@@ -182,6 +178,7 @@
   justify-content: space-between;
   position: relative;
   height: 100%;
+  z-index: 0;
 }
 
 .card_type_film {
@@ -270,7 +267,7 @@
 .footer {
   display: grid;
   grid-template-columns: 240.52px 1fr 240px;
-  padding: 180px 50px 0 50px;
+  padding: 181px 50px 88px 50px;
   align-items: start;
 }
 
